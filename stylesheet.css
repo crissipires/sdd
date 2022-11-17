@@ -37,6 +37,10 @@ img {
 
 .proj1{
     max-height: 300px;
+    min-height: 300px;
+    min-width: 100%;
+    width: 100%;
+    position:relative;
 }
 
 .proj2 {
