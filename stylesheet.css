@@ -23,6 +23,11 @@ img {
     border-radius: 5px;
 }
 
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 /* HEADER */
 
 .header {
@@ -71,6 +76,7 @@ img {
     font-weight: 700;
 }
 
+
 .mainBody
 {
     max-width: 960px;
@@ -84,21 +90,6 @@ img {
 
 .projetos {
     margin-top: 300px;
-}
-
-.habilidades{
-    margin-top: 300px;
-    margin-bottom: 300px;
-}
-
-.habilidadesIcones{
-   display: flex;
-}
-
-.habilidades-img{
-    flex: 1;
-    margin: 10px;
-    flex-wrap: wrap;
 }
 
 
@@ -121,6 +112,23 @@ img {
 
 
 
+.habilidades{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.habilidadesIcones{
+   display: flex;
+}
+
+.habilidades-img{
+    flex: 1;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+
+
 .icones{
     max-height: 250px;
 }
@@ -130,10 +138,6 @@ img {
     margin-bottom: 300px;
 }
 
-h1{
-    text-align: center;
-    margin-bottom: 50px;
-}
 
 .sobre_mim{
     display: flex;
