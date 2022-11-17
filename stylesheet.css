@@ -4,6 +4,25 @@ body{
     margin: 10px 100px 10px 100px;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+img {
+    border-radius: 5px;
+}
+
 .landing {
     font-size: 6rem;
     margin-top: 100px;
@@ -11,6 +30,7 @@ body{
 }
 
 .projetos {
+    padding: 50px;
     margin-top: 300px;
     margin-bottom: 300px;
 }
@@ -37,6 +57,11 @@ body{
 .habilidades{
     margin-top: 300px;
     margin-bottom: 300px;
+    padding: 150px;
+}
+
+.habilidades h1{
+    padding-bottom: 60px;
 }
 
 .habilidadesIcones{
@@ -62,4 +87,63 @@ h1{
     display: flex;
     justify-content: space-evenly;
     font-size: 52pt;
+}
+
+
+/* HEADER */
+
+.header {
+  background: #1E1E1E;
+}
+
+.containerExterno {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerExterno nav a {
+  color: #ffff;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.containerInterno ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerInterno a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.containerInterno a:hover {
+  color: #122ab2;
+}
+
+/*FOOTER*/
+
+.footer {
+    grid-area: footer;
+    background: linear-gradient(135deg, #424242, #1E1E1E);
+    color:#ffff;
+    padding: 30px;
+    text-align: center;
+}
+
+#sobreMim{
+    padding-top: 50px;
+}
+
+.contato{
+    text-align: center;
+    margin-bottom: 50px;
 }
