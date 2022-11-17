@@ -1,65 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
 body{
     background-color: black;
-    color: white;
-    margin: 10px 100px 10px 100px;
+    color: white
 }
 
-.landing {
-    font-size: 6rem;
-    margin-top: 100px;
-    margin-bottom: 200px;
+li {
+    list-style: none;
 }
 
-.projetos {
-    margin-top: 300px;
-    margin-bottom: 300px;
+a {
+    text-decoration: none;
 }
 
-.proj1{
-    max-height: 300px;
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    max-width: 100px;
 }
 
-.proj2 {
-    max-height: 350px;
+/* HEADER */
+
+.header {
+  background: #1E1E1E;
 }
 
-.primeiralinha {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-}   
-
-.segundalinha {
-    display: flex;
-    justify-content: space-evenly;
+.containerExterno {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.habilidades{
-    margin-top: 300px;
-    margin-bottom: 300px;
+.containerExterno nav a {
+  color: #ffff;
 }
 
-.habilidadesIcones{
-    display: flex;
-    justify-content: space-evenly;
+.logo {
+    max-width: 300px;
 }
 
-.icones{
-    max-height: 250px;
+.containerInterno ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.sobreMim{
-    margin-top: 300px;
-    margin-bottom: 300px;
+.containerInterno a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
 }
 
-h1{
+.containerInterno a:hover {
+  color: #122ab2;
+}
+
+/*FOOTER*/
+
+.footer {
+    grid-area: footer;
+    background: linear-gradient(135deg, #424242, #1E1E1E);
+    color:#ffff;
+    padding: 30px;
     text-align: center;
-    margin-bottom: 50px;
-}
-
-.sobre_mim{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 52pt;
 }
